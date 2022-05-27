@@ -1,0 +1,12 @@
+:root{
+    --main-theme-color:#2c3f69;
+    --btn-hover-color:#333333;
+    --paragraph-color:#333333;
+    --heading-color:#2c3f69;
+    --light-color:#ffffff;
+    --theme-bg:#f9fafb;
+    --bg-dark:#111111;
+}
+h1, h2, h3, h4, h5, h6, a{
+    color: var(--heading-color);
+}

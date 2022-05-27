@@ -1,0 +1,130 @@
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199px) {
+    /* about area  */
+    .about-play-btn a{
+        right: -35px;
+    }
+    .advisors-area {
+        padding-bottom: 100px;
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) { 
+    .banner-right{
+        margin: 0;
+    }
+    .banner-left .section-title h1{
+        font-size: 36px;
+    }
+    .banner-area{
+        margin-top: 60px;
+    }
+    .other-option{
+        display: none;
+    }
+    .w-md-100{
+        width: 100% !important;
+    }
+    .section-title h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .about-item p {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .about-right {
+        padding: 0;
+    }
+    .about-play-btn a {
+        right: 0;
+    }
+    .advisors-right{
+        display: none;
+    }
+    .call-area .cta-inner h2 {
+        font-size: 34px;
+    }
+}
+
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {  
+    .banner-area {
+        margin-top: 75px;
+        padding-top: 50px;
+        height: auto;
+        text-align: center;
+    }
+    .banner-left {
+        padding-bottom: 40px;
+    }
+    .banner-inner li span {
+        display: none;
+    }
+    .banner-right {
+        margin: 0 0 60px;
+    }
+    .py100{
+        padding: 70px 0;
+    }
+    .pt100{
+        padding-top: 70px;
+    }
+    .pb100{
+        padding-bottom: 70px;
+    }
+    .pb70{
+        padding-bottom: 50px;
+    }
+    .section-title h2 {
+        font-size: 28px;
+    }
+    .pb-sm-right{
+        border-right: none;
+    }
+    .pb-sm-bottom{
+        border-bottom: 1px solid #ddd;
+    }
+    .call-area {
+        text-align: center;
+    }
+    .call-area .cta-inner h2 {
+        font-size: 40px;
+    }
+    .aa li {
+        display: block;
+        margin: 0 0 10px;
+        font-size: 1.25rem;
+        padding: 6px 8px;
+    }
+    /* .tabs-area li.nav-item {
+        display: block;
+        margin: 0 0 10px;
+        font-size: 1.25rem;
+        padding: 6px 8px;
+    } */
+}
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) { 
+    .text-xs-left{
+        text-align: left !important;
+    }
+    .footer-socials{
+        margin-top: 20px;
+    }
+    .pb-xs-none{
+        border: none;
+        border-bottom: 1px solid #ddd;
+        text-align: center;
+    }
+
+}
+
+
+
+
+
